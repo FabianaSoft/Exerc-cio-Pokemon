@@ -1,0 +1,23 @@
+#busca{
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 200px;
+}
+
+#resultado{
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 200px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
