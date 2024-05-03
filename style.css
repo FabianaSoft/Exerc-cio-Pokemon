@@ -1,5 +1,11 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
 #busca{
-    background-color: red;
+    background-color:#d34646;
     padding: 10px;
     border-radius: 5px;
     display: flex;
@@ -9,7 +15,7 @@
 }
 
 #resultado{
-    background-color: red;
+    background-color:#d34646;
     padding: 10px;
     border-radius: 5px;
     display: flex;
@@ -20,4 +26,55 @@
     font-weight: bold;
     color: white;
     text-align: center;
+}
+
+htm,body{
+    min-height: 100vh;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#012043;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#tipos{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#tipos p{
+    border: 1px solid #333;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+#tipos p:nth-child(1){
+    background-color:#50a957 ;
+    
+}
+
+#tipos p:nth-child(2){
+    background-color:#713a9c ;
+}
+
+#imagem{
+    border: 3px solid white;
+    border-radius: 10px;
+    background-color:#e8e7fe ;
+    border-bottom-left-radius: 20px;
+}
+
+#bolinha{
+    background-color:#5248ce ;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    border: 2px solid black;
 }
